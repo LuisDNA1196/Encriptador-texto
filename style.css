@@ -1,0 +1,217 @@
+* {
+        background-color: #243447;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        
+      }
+      
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .logoalura {
+        display: inline-block;
+        padding: 1.5rem;
+      }
+      
+      .logoalura path {
+        display: block;
+        width: 100%;
+        height: auto;
+        fill: #ffffff;
+      }
+      
+      .inputotexto {
+        display: inline-block;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .inputotexto input {
+        border: 0px solid;
+        font-size: 2rem;
+      }
+      
+      .inputotexto input::placeholder {
+        color: white;
+        font-size: 1.75rem;
+      }
+      
+      .botones {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 100;
+        left: 40%;
+        bottom: 10%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .botones button {
+        border-radius: 1rem;
+        width: 20vw;
+        height: 6.5vw;
+        font-size: 2.5vw;
+        margin-right: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+      }
+      
+      .boton1 {
+        background-color: #F16B48 ;
+      }
+      
+      .boton2 {
+        background-color: #48F1B5;
+        color: rgb(47, 47, 47);
+      }
+      
+      .boton3{
+        border-radius: 1rem;
+        width: 20vw;
+        height: 6.5vw;
+        font-size: 2.5vw;
+        margin-bottom: 20px;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        background-color: #F16B79 ;
+      }
+      .resultado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        position: absolute;
+        right: 1em;
+        top: 10%;
+        height: 80%;
+        width: 25%;
+        border: 0px;
+        border-radius: 15px;
+        
+      }
+      
+      textarea {
+        background-color: white;
+        width: 80%;
+        height: 50%;
+        border: none;
+        padding: 0;
+        resize: none;
+        text-align: left;
+        align-self: flex-end; /* Alinea el textarea en la parte inferior del div */
+        color: rgb(97, 97, 97);
+        margin-right: 30px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+        font-weight: 200;
+      }
+.resultado img{
+        width: 80%; /* Ancho de la imagen, igual que el del div */
+        height: 80%; /* Altura de la imagen, igual que la del div */
+        object-position: center top;
+      }
+
+.disclaimer {
+  font-size: 1rem;
+}
+
+.escribe{
+  color: #243447;
+  background-color: white;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.descripcion{
+  color: #243447;
+  background-color: white;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 100;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+ 
+footer{
+  padding-top: 80vh;
+  padding-left: 5%;
+  font-size: 0.5rem;
+}
+
+@media (max-width:768px){
+  .resultado{
+    width: 95%;
+    height: 20vh;
+    margin-top: 65vh;
+  }
+  .resultado img{
+    display: none;
+  }
+  .botones{
+    margin-left: 10%;
+  }
+  .botones button{
+    margin-bottom: 10vh;
+    width: 40vw;
+    margin-right: 15%;
+  }
+  .botones p{
+    margin-bottom: 10vh;
+    
+    
+  }
+  .inputotexto{
+    margin-left: 5vh;
+  }
+  footer{
+    padding-top: 88vh;
+    padding-left: 5%;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width:480px){
+  .resultado{
+    width: 85%;
+    margin-right: 4%;
+    height: 20vh;
+    margin-top: 65vh;
+  }
+  .resultado img{
+    display: none;
+  }
+  .botones{
+    margin-left: 10%;
+  }
+  .botones button{
+    margin-bottom: 10vh;
+    width: 40vw;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-right: 15%;
+  }
+  .botones p{
+    font-size: 10px;
+    margin-right: 1rem;
+    
+    
+  }
+  .inputotexto{
+    margin-left: 5vh;
+  }
+  footer{
+    padding-top: 88vh;
+    padding-left: 5%;
+    font-size: 0.5rem;
+  }
+}
+
